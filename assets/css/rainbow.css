@@ -91,6 +91,7 @@
   }
   .c-rainbow__layer--white {
     --text-color: var(--color-white);
+    background: none;
   }
   .c-rainbow__layer--orange {
     --text-color: var(--color-orange);
