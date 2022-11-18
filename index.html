@@ -101,7 +101,6 @@
                 <h3>Passaram por aqui</h3>
                 <ul class="c-rainbow">
                   <div id="teste" class="c-rainbow">
-                      
                   </div>
                  </ul>
               </div>
@@ -491,12 +490,12 @@
     $.ajax({
       url : "https://apicountrecnplay.azurewebsites.net/register/getdata",
       success: function(resultAsJson){
-        var amountOfVisitors = resultASJson.Amount;
+        var amountOfVisitors = resultAsJson.amount;
         var htmlForUpdate = '<li class="c-rainbow_layer c-rainbow_layer--white">'+amountOfVisitors+'</li>';
         $('#teste').html(htmlForUpdate);
       }
     })
-  },5000)
+  },30000)
 </script>
 
 </html>
